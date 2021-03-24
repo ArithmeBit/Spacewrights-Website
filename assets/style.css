@@ -498,14 +498,6 @@ hr {
  * ----------------------------------------------------------------------------
  */
 
-
-<? foreach ( $icon as $iconKey => $iconValue ): ?>
-	.steam-icon-before:before {
-		content: 235b;
-		padding-right: 0.25em;
-	}
-<? endforeach; ?>
-
 .genericon:before,
 .menu-toggle:after,
 .featured-post:before,
@@ -4709,7 +4701,6 @@ button.responsive-toggle:before {
 #space-close {
 	background-image: url("images/space-close.png");
 }
-
 
 /**
  * 8.0 Media Queries
